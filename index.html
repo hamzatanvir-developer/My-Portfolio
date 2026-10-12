@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Hamza is a frontend engineer building fast, accessible, and visually distinctive portfolio and product experiences." />
+  <meta name="theme-color" content="#090909" />
+  <title>Hamza | Frontend Engineer</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <meta property="og:title" content="Hamza | Frontend Engineer" />
+  <meta property="og:description"
+    content="Fast, accessible, and visually distinctive portfolio and product experiences." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hamza | Frontend Engineer" />
+  <meta name="twitter:description"
+    content="Fast, accessible, and visually distinctive portfolio and product experiences." />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Hamza",
+      "jobTitle": "Frontend Engineer",
+      "description": "Frontend engineer building fast, accessible, and visually distinctive portfolio and product experiences.",
+      "knowsAbout": ["Frontend Development", "Accessibility", "Performance", "UI Engineering"]
+    }
+  </script>
+  <script type="module" src="./main.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./theme.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- Fixed Background Canvas -->
+  <!-- Hero uses only the original first frame; no animated frame sequence. -->
+  <div class="bg-overlay"></div>
+
+  <!-- Header -->
+  <header class="glass-header">
+    <a class="logo" href="#hero" aria-label="Hamza Web home">Hamza Web</a>
+    <button class="hamburger" id="hamburger-toggle" aria-label="Toggle navigation" aria-controls="main-nav"
+      aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="main-nav" aria-label="Primary navigation">
+      <span class="nav-indicator" id="nav-indicator"></span>
+      <a href="#about-title">About</a>
+      <a href="#projects-title">Projects</a>
+      <a href="#skills-title">Skills</a>
+      <a href="#process-title">Process</a>
+      <a href="#testimonials-title">Testimonials</a>
+      <a href="#contact-title" class="btn-outline">Let's Talk</a>
+    </nav>
+    <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+  </header>
+  <main id="content" class="content-wrapper">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-portrait"><img class="hero-photo" src="./hero-first-frame.png" alt="" aria-hidden="true" fetchpriority="high" decoding="async"></div>
+      <div class="hero-content">
+        <p class="subtitle">Hi, I'm</p>
+        <h1 class="title">Hamza</h1>
+        <h2 class="role">Frontend Engineer</h2>
+        <p class="tagline">I build fast, polished websites that help businesses earn trust, turn visitors into customers,
+          and give people a smoother digital experience.</p>
+
+        <div class="hero-ctas">
+          <a href="https://www.linkedin.com/in/muhammad-hamza-developer" target="_blank" rel="noopener noreferrer" class="hero-cta-btn social-icon" aria-label="Hamza on LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M5.4 7.5H2V22h3.4V7.5ZM3.7 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM22 13.2c0-4.3-2.3-6.3-5.3-6.3-2.4 0-3.5 1.3-4.1 2.2V7.5H9.2V22h3.4v-8.1c0-2.1.4-4.1 3-4.1s3 2.4 3 4.3V22H22v-8.8Z"/></svg></a>
+          <a href="#contact" class="hero-cta-btn">Start Project ✦</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <div class="chapter-intro" id="about-title" aria-hidden="true"><p class="chapter-title">About Me</p></div>
+    <section id="about" class="section about-section">
+      <div class="section-divider"></div>
+      <div class="section-header">
+        <p class="section-eyebrow">WHO I AM ✦</p>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-bento-grid">
+        <!-- Main Bio Card -->
+        <div class="about-card about-card-bio glass-panel">
+          <div class="about-badge-wrap">
+            <span class="status-pulse-dot"></span>
+            <span class="about-badge-text">Available for freelance projects & engineering roles</span>
+          </div>
+          <h3 class="about-heading">Architecting immersive, high-speed & intelligent web experiences.</h3>
+          <p class="about-bio-lead">
+            Hi, I'm <strong class="text-highlight">Hamza</strong> — a Frontend Engineer dedicated to the intersection of
+            code elegance and visual artistry. I engineer modern, blazing-fast web applications powered by responsive
+            layouts, smooth 60fps animations, glassmorphic aesthetics, and integrated AI capabilities.
+          </p>
+          <p class="about-bio-sub">
+            Every digital product I build is crafted to stand out. I focus on modular architectures that scale
+            effortlessly, intuitive UX that delights visitors, and performance optimizations that maximize conversion
+            and search engine reach.
+          </p>
+
+          <div class="about-focus-tags">
+            <span class="focus-tag">✦ Component Architecture</span>
+            <span class="focus-tag">✦ 60fps Micro-Interactions</span>
+            <span class="focus-tag">✦ AI & LLM Integrations</span>
+            <span class="focus-tag">✦ Responsive Precision</span>
+            <span class="focus-tag">✦ Lighthouse 99+ Audits</span>
+          </div>
+        </div>
+
+        <!-- Metrics / Highlights Grid -->
+        <div class="about-stats-grid">
+          <div class="about-stat-card glass-panel">
+            <span class="stat-number">2+</span>
+            <span class="stat-title">Years Experience</span>
+            <p class="stat-desc">Modern frontend engineering, component systems & design execution</p>
+          </div>
+          <div class="about-stat-card glass-panel">
+            <span class="stat-number">10+</span>
+            <span class="stat-title">Projects Crafted</span>
+            <p class="stat-desc">Production web applications, interactive dashboards & AI tools</p>
+          </div>
+          <div class="about-stat-card glass-panel">
+            <span class="stat-number">99%</span>
+            <span class="stat-title">Performance Score</span>
+            <p class="stat-desc">Speed, SEO, accessibility & best practices audited</p>
+          </div>
+          <div class="about-stat-card glass-panel">
+            <span class="stat-number">100%</span>
+            <span class="stat-title">Dedicated Quality</span>
+            <p class="stat-desc">Pixel-perfect attention to detail and clean, maintainable code</p>
+          </div>
+        </div>
+
+        <!-- 3 Core Engineering Pillars -->
+        <div class="about-pillars-row">
+          <div class="about-pillar glass-panel">
+            <div class="pillar-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                <polyline points="2 17 12 22 22 17" />
+                <polyline points="2 12 12 17 22 12" />
+              </svg>
+            </div>
+            <h4>Visual Excellence</h4>
+            <p>Harmonious color palettes, rich glassmorphic depth, modern typography, and tactile motion that give
+              digital brands an unmistakable aura.</p>
+          </div>
+
+          <div class="about-pillar glass-panel">
+            <div class="pillar-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+            </div>
+            <h4>Scalable Architecture</h4>
+            <p>Clean, maintainable component hierarchies built with TypeScript, modern frameworks, modular state logic,
+              and reusable design tokens.</p>
+          </div>
+
+          <div class="about-pillar glass-panel">
+            <div class="pillar-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M12 2a4 4 0 0 1 4 4c0 .5-.1 1-.3 1.4l2.1 2.1c.4-.2.8-.3 1.2-.3a4 4 0 0 1 4 4c0 1.5-.8 2.8-2 3.5v2a2 2 0 0 1-2 2h-1.5a3 3 0 0 1-5 0H8a2 2 0 0 1-2-2v-2c-1.2-.7-2-2-2-3.5a4 4 0 0 1 4-4c.4 0 .8.1 1.2.3l2.1-2.1C11.1 7 11 6.5 11 6a4 4 0 0 1 1-4z" />
+              </svg>
+            </div>
+            <h4>AI & Modern Intelligence</h4>
+            <p>Integrating intelligent LLM workflows, automated review engines, vector retrieval, and prompt
+              architecture directly into interactive web apps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <div class="chapter-intro" id="projects-title" aria-hidden="true"><p class="chapter-title">Selected Projects</p></div>
+    <section id="projects" class="section projects-section">
+      <div class="section-divider"></div>
+      <div class="section-header">
+        <p class="section-eyebrow">WHAT I'VE BUILT ✦</p>
+        <h2 class="section-title">Selected Projects</h2>
+      </div>
+      <div class="projects-grid-real">
+
+        <!-- Project 01 — DevLens -->
+        <div class="project-card-real glass-panel">
+          <div class="project-card-inner">
+            <div class="project-card-left">
+              <div class="project-visual"
+                style="background: linear-gradient(140deg, #06141B 0%, #11212D 40%, #4A5C6A 100%);">
+                <div class="project-icon-wrap">
+                  <!-- GitHub / Lens icon -->
+                  <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#CCD0CF" stroke-width="1.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 8c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z" />
+                    <path d="M21.17 8H19M5 8H2.83M12 2.83V5M12 19v2.17" />
+                  </svg>
+                </div>
+                <div class="project-score-badge">
+                  <span class="score-num">98</span>
+                  <span class="score-label">Score</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-right">
+              <div class="project-header-row">
+                <span class="project-num">01</span>
+                <div class="project-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">GitHub API</span>
+                  <span class="tag">AI Scoring</span>
+                </div>
+              </div>
+              <h3 class="project-name">DevLens</h3>
+              <p class="project-role">GitHub Profile Analyzer</p>
+              <p class="project-desc">A powerful tool that deep-analyzes any GitHub profile — scoring every repository
+                on quality, activity, and relevance. Built for recruiters to instantly identify top candidates for
+                specific languages or roles, backed by an overall developer score.</p>
+              <ul class="project-features">
+                <li>Per-repository quality scoring</li>
+                <li>Role & language-based candidate filtering</li>
+                <li>Overall developer profile score</li>
+                <li>Recruiter-first UX with comparison views</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://devlensgithub.netlify.app/" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer" class="btn-primary project-btn">Live Demo
+                  ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 02 — Critiq -->
+        <div class="project-card-real glass-panel">
+          <div class="project-card-inner">
+            <div class="project-card-left">
+              <div class="project-visual"
+                style="background: linear-gradient(140deg, #11212D 0%, #253745 50%, #9BA8AB 100%);">
+                <div class="project-icon-wrap">
+                  <!-- Code review icon -->
+                  <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#CCD0CF" stroke-width="1.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6" />
+                    <polyline points="8 6 2 12 8 18" />
+                    <line x1="12" y1="2" x2="12" y2="22" />
+                  </svg>
+                </div>
+                <div class="project-score-badge ai-badge">
+                  <span class="score-num">AI</span>
+                  <span class="score-label">Powered</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-right">
+              <div class="project-header-row">
+                <span class="project-num">02</span>
+                <div class="project-tags">
+                  <span class="tag">Next.js</span>
+                  <span class="tag">OpenAI</span>
+                  <span class="tag">Full-Repo Scan</span>
+                </div>
+              </div>
+              <h3 class="project-name">Critiq</h3>
+              <p class="project-role">AI Code Reviewer</p>
+              <p class="project-desc">An intelligent code review platform that analyzes your messy code and delivers
+                expert-level feedback — including best practices, detected flaws, refactored snippets, and actionable
+                suggestions. Supports full repository scanning for complete coverage.</p>
+              <ul class="project-features">
+                <li>AI-powered flaw detection & suggestions</li>
+                <li>Refactored code output with explanations</li>
+                <li>Best practice recommendations</li>
+                <li>Full repository deep-scan support</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://critiq-ai-code-reviewer.vercel.app/" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer"
+                  class="btn-primary project-btn">Live Demo ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Placeholder Projects — same layout as real projects -->
+        <!-- Placeholder 03 -->
+        <div class="project-card-real glass-panel">
+          <div class="project-card-inner">
+            <div class="project-card-left">
+              <div class="project-visual"
+                style="background: linear-gradient(140deg, #06141B 0%, #253745 60%, #4A5C6A 100%);">
+                <div class="project-icon-wrap">
+                  <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#CCD0CF" stroke-width="1.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <path d="M3 9h18M9 21V9" />
+                  </svg>
+                </div>
+                <div class="project-score-badge">
+                  <span class="score-num">03</span>
+                  <span class="score-label">Soon</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-right">
+              <div class="project-header-row">
+                <span class="project-num">03</span>
+                <div class="project-tags">
+                  <span class="tag">Coming Soon</span>
+                </div>
+              </div>
+              <h3 class="project-name">Project Title</h3>
+              <p class="project-role">Category / Type</p>
+              <p class="project-desc">Short description of the project will go here. Replace this with your actual
+                project details, tools used, and the problem it solves when ready.</p>
+              <ul class="project-features">
+                <li>Feature one will go here</li>
+                <li>Feature two will go here</li>
+                <li>Feature three will go here</li>
+                <li>Feature four will go here</li>
+              </ul>
+              <div class="project-links">
+                <span class="placeholder-badge">🔒 Details Coming Soon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder 04 -->
+        <div class="project-card-real glass-panel">
+          <div class="project-card-inner">
+            <div class="project-card-left">
+              <div class="project-visual"
+                style="background: linear-gradient(140deg, #11212D 0%, #4A5C6A 60%, #9BA8AB 100%);">
+                <div class="project-icon-wrap">
+                  <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#CCD0CF" stroke-width="1.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+                    <line x1="9" y1="9" x2="9.01" y2="9" />
+                    <line x1="15" y1="9" x2="15.01" y2="9" />
+                  </svg>
+                </div>
+                <div class="project-score-badge">
+                  <span class="score-num">04</span>
+                  <span class="score-label">Soon</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-right">
+              <div class="project-header-row">
+                <span class="project-num">04</span>
+                <div class="project-tags">
+                  <span class="tag">Coming Soon</span>
+                </div>
+              </div>
+              <h3 class="project-name">Project Title</h3>
+              <p class="project-role">Category / Type</p>
+              <p class="project-desc">Short description of the project will go here. Replace this with your actual
+                project details, tools used, and the problem it solves when ready.</p>
+              <ul class="project-features">
+                <li>Feature one will go here</li>
+                <li>Feature two will go here</li>
+                <li>Feature three will go here</li>
+                <li>Feature four will go here</li>
+              </ul>
+              <div class="project-links">
+                <span class="placeholder-badge">🔒 Details Coming Soon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder 05 -->
+        <div class="project-card-real glass-panel">
+          <div class="project-card-inner">
+            <div class="project-card-left">
+              <div class="project-visual"
+                style="background: linear-gradient(140deg, #253745 0%, #11212D 50%, #06141B 100%);">
+                <div class="project-icon-wrap">
+                  <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#CCD0CF" stroke-width="1.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                    <path d="M2 17l10 5 10-5" />
+                    <path d="M2 12l10 5 10-5" />
+                  </svg>
+                </div>
+                <div class="project-score-badge">
+                  <span class="score-num">05</span>
+                  <span class="score-label">Soon</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-right">
+              <div class="project-header-row">
+                <span class="project-num">05</span>
+                <div class="project-tags">
+                  <span class="tag">Coming Soon</span>
+                </div>
+              </div>
+              <h3 class="project-name">Project Title</h3>
+              <p class="project-role">Category / Type</p>
+              <p class="project-desc">Short description of the project will go here. Replace this with your actual
+                project details, tools used, and the problem it solves when ready.</p>
+              <ul class="project-features">
+                <li>Feature one will go here</li>
+                <li>Feature two will go here</li>
+                <li>Feature three will go here</li>
+                <li>Feature four will go here</li>
+              </ul>
+              <div class="project-links">
+                <span class="placeholder-badge">🔒 Details Coming Soon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder 06 -->
+        <div class="project-card-real glass-panel">
+          <div class="project-card-inner">
+            <div class="project-card-left">
+              <div class="project-visual"
+                style="background: linear-gradient(140deg, #06141B 0%, #11212D 40%, #253745 100%);">
+                <div class="project-icon-wrap">
+                  <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#CCD0CF" stroke-width="1.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                  </svg>
+                </div>
+                <div class="project-score-badge">
+                  <span class="score-num">06</span>
+                  <span class="score-label">Soon</span>
+                </div>
+              </div>
+            </div>
+            <div class="project-card-right">
+              <div class="project-header-row">
+                <span class="project-num">06</span>
+                <div class="project-tags">
+                  <span class="tag">Coming Soon</span>
+                </div>
+              </div>
+              <h3 class="project-name">Project Title</h3>
+              <p class="project-role">Category / Type</p>
+              <p class="project-desc">Short description of the project will go here. Replace this with your actual
+                project details, tools used, and the problem it solves when ready.</p>
+              <ul class="project-features">
+                <li>Feature one will go here</li>
+                <li>Feature two will go here</li>
+                <li>Feature three will go here</li>
+                <li>Feature four will go here</li>
+              </ul>
+              <div class="project-links">
+                <span class="placeholder-badge">🔒 Details Coming Soon</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <div class="chapter-intro" id="skills-title" aria-hidden="true"><p class="chapter-title">Skills &amp; Stack</p></div>
+    <section id="skills" class="section skills-section">
+      <div class="section-divider"></div>
+      <div class="section-header">
+        <p class="section-eyebrow">TECHNICAL ARSENAL ✦</p>
+        <h2 class="section-title">Frontend Skills & Stack</h2>
+      </div>
+
+      <div class="skills-categories-grid">
+
+        <!-- Category: Core Frontend Languages -->
+        <div class="skills-category-card glass-panel">
+          <div class="category-header">
+            <div class="category-badge">01</div>
+            <h3>Core Languages</h3>
+          </div>
+          <div class="skills-items-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <rect width="24" height="24" rx="4" fill="#F7DF1E" />
+                  <path
+                    d="M7 16.5c.5.8 1.2 1.3 2.1 1.3 1.1 0 1.8-.6 1.8-1.5 0-1.1-.9-1.5-2.2-2.1-1.8-.7-3-1.6-3-3.4 0-1.7 1.3-3.1 3.3-3.1 1.4 0 2.4.6 3.1 1.7l-1.5 1c-.4-.7-.9-1-1.6-1-.8 0-1.3.5-1.3 1.1 0 .8.6 1.1 1.8 1.6 2 .9 3.4 1.7 3.4 3.7 0 2.1-1.6 3.3-3.7 3.3-2 0-3.3-1.1-4-2.4l1.8-1.2zm7.5.3c.4.7.8 1.2 1.6 1.2.8 0 1.3-.4 1.3-1.3v-7.9h2v7.9c0 2-1.2 3.1-3.2 3.1-1.7 0-2.8-.9-3.4-2.2l1.7-.8z"
+                    fill="#000" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-tag">ES6+ / Modern JS</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <rect width="24" height="24" rx="4" fill="#3178C6" />
+                  <path d="M12.5 13.2h2.2v4.8h2.1v-4.8h2.2v-1.7H12.5v1.7zm-2.8-1.7H5v1.7h1.7v4.8h2.1v-4.8H10.5v-1.7z"
+                    fill="#FFF" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">TypeScript</span>
+                <span class="skill-tag">Type-Safe Architecture</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <path d="M3 2l1.8 18.2L12 22.5l7.2-2.3L21 2H3z" fill="#E34F26" />
+                  <path d="M12 3.8v16.7l5.6-1.8L19.1 3.8H12z" fill="#EF652A" />
+                  <path
+                    d="M12 7.7H7.7l.2 2.3H12v-2.3zm0 4.6H9.8l.2 2.3h2V12.3zm0 4.2l-2.6-.7-.2-1.9H7.2l.3 3.6 4.5 1.2v-2.2zm0-8.8v2.3h4.3l-.3 3.1H12v2.3h2.1l-.2 2.6-1.9.5v2.2l3.8-1 .5-6.1.4-3.6H12z"
+                    fill="#FFF" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">HTML5</span>
+                <span class="skill-tag">Semantic & Accessible</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <path d="M3 2l1.8 18.2L12 22.5l7.2-2.3L21 2H3z" fill="#1572B6" />
+                  <path d="M12 3.8v16.7l5.6-1.8L19.1 3.8H12z" fill="#33A9DC" />
+                  <path
+                    d="M12 7.7H7.7l.2 2.3H12v-2.3zm0 4.6H9.8l.2 2.3h2V12.3zm0 4.2l-2.6-.7-.2-1.9H7.2l.3 3.6 4.5 1.2v-2.2zm0-8.8v2.3h4.3l-.3 3.1H12v2.3h2.1l-.2 2.6-1.9.5v2.2l3.8-1 .5-6.1.4-3.6H12z"
+                    fill="#FFF" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">CSS3 / SCSS</span>
+                <span class="skill-tag">Modern Flex & Grid</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category: Frameworks & UI Architecture -->
+        <div class="skills-category-card glass-panel">
+          <div class="category-header">
+            <div class="category-badge">02</div>
+            <h3>Frameworks & UI</h3>
+          </div>
+          <div class="skills-items-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <ellipse cx="12" cy="12" rx="4" ry="10" transform="rotate(30 12 12)" stroke="#61DAFB"
+                    stroke-width="1.5" />
+                  <ellipse cx="12" cy="12" rx="4" ry="10" transform="rotate(90 12 12)" stroke="#61DAFB"
+                    stroke-width="1.5" />
+                  <ellipse cx="12" cy="12" rx="4" ry="10" transform="rotate(150 12 12)" stroke="#61DAFB"
+                    stroke-width="1.5" />
+                  <circle cx="12" cy="12" r="2" fill="#61DAFB" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">React.js</span>
+                <span class="skill-tag">Components & Hooks</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <circle cx="12" cy="12" r="11" fill="#06141B" stroke="#CCD0CF" stroke-width="1" />
+                  <path d="M8 7v10h2V9.8l6.3 7.2h1.7V7h-2v7.1L9.6 7H8z" fill="#FFF" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Next.js</span>
+                <span class="skill-tag">SSR / App Router</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <path d="M2 3h4.6L12 12.8 17.4 3H22L12 21 2 3z" fill="#42B883" />
+                  <path d="M6.6 3h3.5L12 6.5 13.9 3h3.5L12 12.5 6.6 3z" fill="#35495E" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Vue.js</span>
+                <span class="skill-tag">Composition API</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <path
+                    d="M12.5 6.5c-2.4 0-3.9 1.2-4.5 3.6 1-.9 2.1-1.3 3.3-.9 1 .3 1.7 1.1 2.5 2 1.3 1.4 2.8 3 6.2 3 2.4 0 3.9-1.2 4.5-3.6-1 .9-2.1 1.3-3.3.9-1-.3-1.7-1.1-2.5-2-1.3-1.4-2.8-3-6.2-3zm-8 6c-2.4 0-3.9 1.2-4.5 3.6 1-.9 2.1-1.3 3.3-.9 1 .3 1.7 1.1 2.5 2 1.3 1.4 2.8 3 6.2 3 2.4 0 3.9-1.2 4.5-3.6-1 .9-2.1 1.3-3.3.9-1-.3-1.7-1.1-2.5-2-1.3-1.4-2.8-3-6.2-3z"
+                    fill="#38BDF8" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Tailwind CSS</span>
+                <span class="skill-tag">Design Systems</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#CCD0CF" stroke-width="1.6"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 19.5h20L12 2z" />
+                  <path d="M12 2v17.5M2 19.5l10-8.5 10 8.5" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Three.js</span>
+                <span class="skill-tag">WebGL & 3D Canvas</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <path
+                    d="M16.5 7.5c-2.2-2.2-5.8-2.2-8 0-1.7 1.7-2.1 4.3-1 6.4L5.6 15.8c-1.8-2.9-1.3-6.7 1.3-9.3 3.3-3.3 8.7-3.3 12 0l-2.4 1z"
+                    fill="#764ABC" />
+                  <path
+                    d="M7.5 16.5c2.2 2.2 5.8 2.2 8 0 1.7-1.7 2.1-4.3 1-6.4l1.9-1.9c1.8 2.9 1.3 6.7-1.3 9.3-3.3 3.3-8.7 3.3-12 0l2.4-1z"
+                    fill="#764ABC" />
+                  <circle cx="12" cy="12" r="2.2" fill="#764ABC" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Redux / Zustand</span>
+                <span class="skill-tag">Client State Logic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category: Frontend AI & Smart UI Integration -->
+        <div class="skills-category-card glass-panel">
+          <div class="category-header">
+            <div class="category-badge">03</div>
+            <h3>Frontend AI Integration</h3>
+          </div>
+          <div class="skills-items-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <polygon points="12 2 24 22 0 22" fill="#FFF" />
+                  <path d="M12 9l3 6h-6l3-6z" fill="#06141B" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Vercel AI SDK</span>
+                <span class="skill-tag">useChat / Streaming UI</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#CCD0CF" stroke-width="1.6">
+                  <path
+                    d="M21.2 10.3c-.2-1.4-.8-2.7-1.7-3.7-1.4-1.5-3.3-2.3-5.3-2.3-.5 0-1.1.1-1.6.2C12 3.6 10.8 3 9.4 3c-1.8 0-3.5 1-4.4 2.6-.9.2-1.8.6-2.5 1.2C1.3 7.9.6 9.4.6 11c0 .9.2 1.8.7 2.6-.2.6-.3 1.3-.3 2 0 1.8.9 3.5 2.5 4.5.2 1 .7 1.9 1.4 2.6 1.4 1.4 3.3 2.1 5.3 2.1.6 0 1.2-.1 1.8-.3.7.8 1.8 1.4 3.1 1.4 1.8 0 3.5-1 4.4-2.6.9-.2 1.8-.7 2.5-1.3 1.2-1.1 1.9-2.6 1.9-4.2 0-.9-.2-1.8-.7-2.6.2-.6.3-1.3.3-2 0-1.8-.8-3.4-2.4-4.5z" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">OpenAI API (Frontend)</span>
+                <span class="skill-tag">SSE Streaming & Prompts</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#38BDF8" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Real-Time Streaming</span>
+                <span class="skill-tag">Token-by-Token UX</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#CCD0CF" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                  <line x1="12" y1="2" x2="12" y2="22" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">AI Code Review UI</span>
+                <span class="skill-tag">Diff Viewers & Inspectors</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category: Frontend Tooling & Performance -->
+        <div class="skills-category-card glass-panel">
+          <div class="category-header">
+            <div class="category-badge">04</div>
+            <h3>Tooling & Performance</h3>
+          </div>
+          <div class="skills-items-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#FFD21E" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Vite</span>
+                <span class="skill-tag">HMR & Modern Bundler</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="#CCD0CF">
+                  <path
+                    d="M12 .5C5.4.5 0 5.9 0 12.5c0 5.3 3.4 9.8 8.2 11.4.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2 1-.3 2-.4 3-.4s2 .1 3 .4c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.2.9 2.4v3.6c0 .3.2.7.8.6C20.6 22.3 24 17.8 24 12.5 24 5.9 18.6.5 12 .5z" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Git & GitHub</span>
+                <span class="skill-tag">Version Control & PRs</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+                  <path d="M8 24c2.2 0 4-1.8 4-4v-4H8c-2.2 0-4 1.8-4 4s1.8 4 4 4z" fill="#0ACF83" />
+                  <path d="M4 12c0-2.2 1.8-4 4-4h4v8H8c-2.2 0-4-1.8-4-4z" fill="#A259FF" />
+                  <path d="M4 4c0-2.2 1.8-4 4-4h4v8H8C5.8 8 4 6.2 4 4z" fill="#F24E1E" />
+                  <path d="M12 0h4c2.2 0 4 1.8 4 4s-1.8 4-4 4h-4V0z" fill="#FF7262" />
+                  <path d="M20 12c0 2.2-1.8 4-4 4s-4-1.8-4-4 1.8-4 4-4 4 1.8 4 4z" fill="#1ABCFE" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Figma</span>
+                <span class="skill-tag">UI/UX & Design Handoff</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#F59E0B" stroke-width="1.8">
+                  <circle cx="12" cy="12" r="10" stroke="#CCD0CF" />
+                  <polygon points="12 6 14 11 12 18 10 11 12 6" fill="#F59E0B" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">DevTools & Lighthouse</span>
+                <span class="skill-tag">Performance & Web Vitals</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#E10098" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                  <circle cx="12" cy="12" r="3" fill="#E10098" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">REST & GraphQL APIs</span>
+                <span class="skill-tag">Data Fetching & Integration</span>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#8DD6F9" stroke-width="1.8"
+                  stroke-linecap="round">
+                  <rect x="3" y="3" width="18" height="18" rx="3" stroke="#8DD6F9" />
+                  <path d="M8 12h8M12 8v8" stroke="#8DD6F9" />
+                </svg>
+              </div>
+              <div class="skill-info">
+                <span class="skill-name">Webpack & PostCSS</span>
+                <span class="skill-tag">Asset Pipelines & Config</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- My Process Section -->
+    <div class="chapter-intro" id="process-title" aria-hidden="true"><p class="chapter-title">My Process</p></div>
+    <section id="process" class="section process-section">
+      <div class="section-divider"></div>
+      <div class="section-header">
+        <p class="section-eyebrow">ENGINEERED WORKFLOW ✦</p>
+        <h2 class="section-title">My Process</h2>
+      </div>
+
+      <div class="process-timeline-wrapper">
+
+        <!-- Step 01 -->
+        <div class="process-card glass-panel">
+          <div class="process-card-header">
+            <div class="process-num-badge">
+              <span class="num-text">01</span>
+            </div>
+            <div class="process-phase-meta">
+              <span class="phase-tag">PHASE 01</span>
+              <span class="duration-tag">✦ Discovery</span>
+            </div>
+          </div>
+          <h3 class="process-title">Discovery & Strategic Roadmap</h3>
+          <p class="process-desc">
+            We start by exploring your core business objectives, target audience demographics, competitive landscape,
+            and key deliverables. This aligns technical scope with your growth vision before laying the foundation.
+          </p>
+          <div class="process-deliverables">
+            <span class="deliv-pill">✦ Scope & Milestones</span>
+            <span class="deliv-pill">✦ Architecture Strategy</span>
+            <span class="deliv-pill">✦ Tech Stack Selection</span>
+          </div>
+        </div>
+
+        <!-- Step 02 -->
+        <div class="process-card glass-panel">
+          <div class="process-card-header">
+            <div class="process-num-badge">
+              <span class="num-text">02</span>
+            </div>
+            <div class="process-phase-meta">
+              <span class="phase-tag">PHASE 02</span>
+              <span class="duration-tag">✦ Architecture</span>
+            </div>
+          </div>
+          <h3 class="process-title">Information & UX Architecture</h3>
+          <p class="process-desc">
+            Structuring frictionless user journeys, state-flow diagrams, and low-fidelity prototypes. Every page and
+            component is engineered around clear mental models and maximum user retention.
+          </p>
+          <div class="process-deliverables">
+            <span class="deliv-pill">✦ User Flowcharts</span>
+            <span class="deliv-pill">✦ Interactive Wireframes</span>
+            <span class="deliv-pill">✦ Data & State Schemas</span>
+          </div>
+        </div>
+
+        <!-- Step 03 -->
+        <div class="process-card glass-panel">
+          <div class="process-card-header">
+            <div class="process-num-badge">
+              <span class="num-text">03</span>
+            </div>
+            <div class="process-phase-meta">
+              <span class="phase-tag">PHASE 03</span>
+              <span class="duration-tag">✦ Visual Craft</span>
+            </div>
+          </div>
+          <h3 class="process-title">UI Design & Motion Systems</h3>
+          <p class="process-desc">
+            Designing tailored design systems with curated color palettes, elegant glassmorphic depth, responsive
+            typography scales, and tactile micro-animations that make your digital presence remarkable.
+          </p>
+          <div class="process-deliverables">
+            <span class="deliv-pill">✦ Reusable Design Tokens</span>
+            <span class="deliv-pill">✦ Glassmorphic UI System</span>
+            <span class="deliv-pill">✦ 60fps Motion Guidelines</span>
+          </div>
+        </div>
+
+        <!-- Step 04 -->
+        <div class="process-card glass-panel">
+          <div class="process-card-header">
+            <div class="process-num-badge">
+              <span class="num-text">04</span>
+            </div>
+            <div class="process-phase-meta">
+              <span class="phase-tag">PHASE 04</span>
+              <span class="duration-tag">✦ Development</span>
+            </div>
+          </div>
+          <h3 class="process-title">High-Performance Engineering & AI</h3>
+          <p class="process-desc">
+            Writing modular, type-safe frontend code using React, Next.js, and TypeScript. Seamlessly integrating AI
+            capabilities (LLMs, prompt workflows, automated analysis) and smooth canvas scroll sequences.
+          </p>
+          <div class="process-deliverables">
+            <span class="deliv-pill">✦ Clean Component Hierarchy</span>
+            <span class="deliv-pill">✦ LLM & API Integrations</span>
+            <span class="deliv-pill">✦ 60fps Scroll Animations</span>
+          </div>
+        </div>
+
+        <!-- Step 05 -->
+        <div class="process-card glass-panel">
+          <div class="process-card-header">
+            <div class="process-num-badge">
+              <span class="num-text">05</span>
+            </div>
+            <div class="process-phase-meta">
+              <span class="phase-tag">PHASE 05</span>
+              <span class="duration-tag">✦ Delivery</span>
+            </div>
+          </div>
+          <h3 class="process-title">Testing, Auditing & Global Launch</h3>
+          <p class="process-desc">
+            Rigorous cross-browser QA, accessibility audits, Lighthouse 99+ speed optimization, and CI/CD automated
+            deployment to edge networks with zero downtime and ongoing technical reliability.
+          </p>
+          <div class="process-deliverables">
+            <span class="deliv-pill">✦ 99+ Lighthouse Audits</span>
+            <span class="deliv-pill">✦ Cross-Device Compatibility</span>
+            <span class="deliv-pill">✦ CI/CD Global Edge Launch</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Process CTA Banner -->
+      <div class="process-cta-banner glass-panel">
+        <div class="process-cta-content">
+          <span class="cta-mini-label">✦ READY TO COLLABORATE?</span>
+          <h3>Let's build something extraordinary with this process.</h3>
+          <p>Whether it's an ambitious web application, an AI-powered platform, or a brand-defining website.</p>
+        </div>
+        <a href="#contact" class="hero-cta-btn">Start Project ✦</a>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <div class="chapter-intro" id="testimonials-title" aria-hidden="true"><p class="chapter-title">Kind Words</p></div>
+    <section id="testimonials" class="section testimonials-section">
+      <div class="section-divider"></div>
+      <div class="section-header">
+        <p class="section-eyebrow">CLIENT FEEDBACK ✦</p>
+        <h2 class="section-title">Kind Words</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass-panel">
+          <p>"Hamza is incredibly talented, creative, and detail-oriented. He transformed our ideas into a beautiful,
+            high-converting website."</p>
+          <div class="client-info">
+            <div class="avatar" style="background: #4A5C6A;"></div>
+            <div>
+              <h4>Naveed Anjum</h4>
+              <span>Principal SQA Engineer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card glass-panel">
+          <p>"Working with Hamza was a smooth and inspiring experience. He truly cares about delivering the best
+            results."</p>
+          <div class="client-info">
+            <div class="avatar" style="background: #9BA8AB;"></div>
+            <div>
+              <h4>Ali Ahmed</h4>
+              <span>Data Scientist</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card glass-panel">
+          <p>"The layouts are not only stunning but also highly functional. I highly recommend him for frontend
+            engineering!"</p>
+          <div class="client-info">
+            <div class="avatar" style="background: #253745;"></div>
+            <div>
+              <h4>Musa</h4>
+              <span>Software Engineer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <div class="section-divider"></div>
+    <div class="chapter-intro" id="contact-title" aria-hidden="true"><p class="chapter-title">Let's Connect</p></div>
+    <footer id="contact" class="footer-section glass-panel">
+      <div class="footer-content">
+        <div class="footer-left">
+          <h2>Let's Create Something <br><span class="highlight">Amazing</span></h2>
+          <div class="availability">
+            <p>I'M CURRENTLY OPEN FOR NEW PROJECTS</p>
+            <span>Let's build something impactful and beautiful together.</span>
+          </div>
+          <div class="contact-links">
+            <a class="contact-link social-icon" href="https://github.com/hamzatanvir-developer" target="_blank" rel="noopener noreferrer" aria-label="Hamza on GitHub" title="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 .8a11.4 11.4 0 0 0-3.6 22.2c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.4-1.3-5.4-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C17.1 4.7 18 5 18 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.4 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A11.4 11.4 0 0 0 12 .8Z"/></svg></a>
+            <a class="contact-link social-icon" href="https://www.instagram.com/thefrontend_guy/" target="_blank" rel="noopener noreferrer" aria-label="Hamza on Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a class="contact-link social-icon" href="https://www.linkedin.com/in/muhammad-hamza-developer" target="_blank" rel="noopener noreferrer" aria-label="Hamza on LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M5.4 7.5H2V22h3.4V7.5ZM3.7 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM22 13.2c0-4.3-2.3-6.3-5.3-6.3-2.4 0-3.5 1.3-4.1 2.2V7.5H9.2V22h3.4v-8.1c0-2.1.4-4.1 3-4.1s3 2.4 3 4.3V22H22v-8.8Z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-right">
+          <form class="contact-form" data-recipient="hamzatanvir501@gmail.com">
+            <div class="contact-form-field">
+              <label for="contact-name">Name</label>
+              <input id="contact-name" name="name" type="text" placeholder="Your name" autocomplete="name" inputmode="text" minlength="2" maxlength="80" pattern="[A-Za-z][A-Za-z' -]*" title="Use letters only for your name." required>
+            </div>
+            <div class="contact-form-field">
+              <label for="contact-email">Email</label>
+              <input id="contact-email" name="email" type="email" placeholder="hello@example.com" autocomplete="email" inputmode="email" maxlength="120" required>
+            </div>
+            <div class="contact-form-field">
+              <label for="contact-website-type">Website type</label>
+              <select id="contact-website-type" name="websiteType" required>
+                <option value="" selected disabled>Choose the kind of site you want</option>
+                <option value="landing-page">Landing page</option>
+                <option value="portfolio">Portfolio</option>
+                <option value="business-website">Business website</option>
+                <option value="ecommerce">E-commerce store</option>
+                <option value="web-app">Web app / dashboard</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="contact-form-field">
+              <label for="contact-message">Project details</label>
+              <textarea id="contact-message" name="message" placeholder="Tell me about your project..." rows="4" minlength="4" maxlength="2000" required></textarea>
+            </div>
+            <div class="contact-form-field contact-form-honeypot" aria-hidden="true">
+              <label for="contact-company">Company</label>
+              <input id="contact-company" name="company" type="text" tabindex="-1" autocomplete="off" maxlength="120" placeholder="Leave this blank">
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <button type="submit" class="btn-primary">SEND ME A MESSAGE ✦</button>
+            <p id="contact-status" class="contact-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Hamza. All rights reserved.</p>
+        <p>Based in any city. Working Worldwide.</p>
+      </div>
+    </footer>
+  </main>
+  <div class="contact-send-overlay" id="contact-send-overlay" aria-hidden="true">
+    <div class="contact-send-card" role="presentation">
+      <svg class="contact-send-icon" viewBox="0 0 160 160" aria-hidden="true" focusable="false">
+        <path class="contact-send-bubble" d="M80 16c-31.5 0-57 24.9-57 55.5 0 17.7 8.4 33.4 21.6 43.5l-4.3 20 18.8-11c6.7 2.1 13.9 3.3 20.9 3.3 31.5 0 57-24.9 57-55.5S111.5 16 80 16Z"></path>
+        <path class="contact-send-tail" d="M54 114l-6 26 24-14"></path>
+        <path class="contact-send-check" d="M46 79l20 20 48-50"></path>
+      </svg>
+      <p class="contact-send-text">Message sent</p>
+    </div>
+  </div>
+</body>
+
+</html>
