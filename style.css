@@ -191,6 +191,7 @@ nav a {
   border-radius: 999px;
   z-index: 1;
   white-space: nowrap;
+  background: transparent;
 }
 
 nav a:hover,
