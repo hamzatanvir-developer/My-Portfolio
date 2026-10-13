@@ -1,5 +1,46 @@
 
 const hamburger = document.getElementById('hamburger-toggle');
+
+// Replace legacy approximations with maintained brand marks from Simple Icons.
+const skillLogos = {
+  'JavaScript': ['javascript', 'F7DF1E'],
+  'TypeScript': ['typescript', '3178C6'],
+  'HTML5': ['html5', 'E34F26'],
+  'CSS3 / SCSS': ['sass', 'CC6699'],
+  'React.js': ['react', '61DAFB'],
+  'Next.js': ['nextdotjs', 'FFFFFF'],
+  'Vue.js': ['vuedotjs', '4FC08D'],
+  'Tailwind CSS': ['tailwindcss', '06B6D4'],
+  'Three.js': ['threedotjs', 'FFFFFF'],
+  'Redux / Zustand': ['redux', '764ABC'],
+  'Vercel AI SDK': ['vercel', 'FFFFFF'],
+  'OpenAI API (Frontend)': ['openai', 'FFFFFF'],
+  'Real-Time Streaming': ['socketdotio', 'FFFFFF'],
+  'AI Code Review UI': ['githubcopilot', 'FFFFFF'],
+  'Vite': ['vite', '646CFF'],
+  'Git & GitHub': ['github', 'FFFFFF'],
+  'Figma': ['figma', 'F24E1E'],
+  'DevTools & Lighthouse': ['lighthouse', 'F44B21'],
+  'REST & GraphQL APIs': ['graphql', 'E10098'],
+  'Webpack & PostCSS': ['webpack', '8DD6F9'],
+};
+
+document.querySelectorAll('.skill-item').forEach(item => {
+  const name = item.querySelector('.skill-name')?.textContent.trim();
+  const icon = item.querySelector('.skill-icon');
+  const logo = skillLogos[name];
+  if (!icon || !logo) return;
+
+  const image = document.createElement('img');
+  image.src = `https://cdn.simpleicons.org/${logo[0]}/${logo[1]}`;
+  image.alt = `${name} logo`;
+  image.width = 42;
+  image.height = 42;
+  image.loading = 'lazy';
+  image.decoding = 'async';
+  icon.replaceChildren(image);
+});
+
 const mainNav = document.getElementById('main-nav');
 const navOverlay = document.getElementById('nav-overlay');
 

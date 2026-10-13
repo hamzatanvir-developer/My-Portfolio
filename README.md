@@ -14,6 +14,7 @@ A cinematic, responsive single-page portfolio built with vanilla HTML, CSS, and 
 - Smooth directional content entrances throughout the site
 - Scroll-driven horizontal showcase for featured projects
 - Pinned vertical Skills & Stack experience with category progress controls
+- Maintained technology brand marks supplied by the Simple Icons CDN
 - About, Projects, Skills, Process, Testimonials, and Contact sections
 - Responsive navigation with an animated desktop indicator and mobile menu
 - Compact contact form with validation, spam protection, FormSubmit delivery, and success feedback
