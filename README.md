@@ -58,7 +58,8 @@ npm run preview
 ├── favicon.svg
 ├── public/
 │   └── hero-first-frame.png   # Static hero portrait
-└── archived-frames/           # Original hero sequence, excluded from the live website
+├── package.json               # Commands and project metadata
+└── package-lock.json          # Reproducible dependency versions
 ```
 
 ## Interaction Notes

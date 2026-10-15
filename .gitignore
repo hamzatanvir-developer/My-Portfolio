@@ -10,8 +10,7 @@ coverage
 .env.*
 !.env.example
 
-# Junk in your project
-archived-frames
+# Generated local artifacts
 build-output*.txt
 Screenshot*.png
 
